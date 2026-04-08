@@ -17,7 +17,6 @@
 - **Typography:** Playfair Display (headings) + DM Sans (body)
 
 ---
-
 ## 🏗️ Tech Stack
 
 | Layer        | Technology                                                     |
