@@ -15,6 +15,7 @@ const INTERESTS = [
   '🎭 Theater', '🎸 Guitar', '🌿 Nature', '✍️ Writing', '🎤 Singing',
 ];
 
+
 const GOALS = [
   { id: 'relationship', emoji: '💍', label: 'Long-term relationship' },
   { id: 'casual',       emoji: '😊', label: 'Something casual'      },
