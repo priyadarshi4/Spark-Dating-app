@@ -6,6 +6,7 @@ const { protect } = require('../middleware/auth');
 const { rules, validate } = require('../middleware/validator');
 const rateLimiter = require('../middleware/rateLimiter');
 
+
 router.use(protect);
 router.get('/feed', getDiscoveryFeed);
 router.get('/who-liked-me', whoLikedMe);
