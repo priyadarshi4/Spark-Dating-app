@@ -4,7 +4,6 @@ const Match = require('../models/Match');
 const Swipe = require('../models/Swipe');
 const { detectFraud, runNightlyScoring } = require('../services/mlService');
 
-
 exports.getDashboard = async (req, res, next) => {
   try {
     const [totalUsers, activeUsers, totalMatches, bannedUsers] = await Promise.all([
