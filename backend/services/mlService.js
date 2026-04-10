@@ -10,6 +10,7 @@
  *   6. Compatibility score between two users
  */
 
+
 const User = require('../models/User');
 const Swipe = require('../models/Swipe');
 const logger = require('../utils/logger');

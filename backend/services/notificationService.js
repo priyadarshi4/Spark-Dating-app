@@ -16,6 +16,7 @@ exports.createNotification = async (data) => {
   }
 };
 
+
 exports.getUnreadCount = async (userId) => {
   return Notification.countDocuments({ recipient: userId, isRead: false });
 };
