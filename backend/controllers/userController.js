@@ -8,6 +8,7 @@ exports.getProfile = async (req, res, next) => {
   } catch (err) { next(err); }
 };
 
+
 exports.getUserById = async (req, res, next) => {
   try {
     const user = await User.findById(req.params.id)

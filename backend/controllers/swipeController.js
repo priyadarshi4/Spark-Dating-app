@@ -9,6 +9,7 @@ const logger = require('../utils/logger');
 
 const FREE_SWIPES_PER_DAY = parseInt(process.env.FREE_SWIPES_PER_DAY) || 50;
 
+
 // ─── @POST /api/swipes ────────────────────────────────────────
 // Body: { targetUserId, action: 'like'|'pass'|'superlike' }
 exports.swipe = async (req, res, next) => {
