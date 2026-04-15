@@ -6,7 +6,6 @@ const { getIO } = require('../config/socket');
 const { updateEngagementScore } = require('../services/mlService');
 const { redisClient } = require('../config/redis');
 const logger = require('../utils/logger');
-
 const FREE_SWIPES_PER_DAY = parseInt(process.env.FREE_SWIPES_PER_DAY) || 50;
 
 
