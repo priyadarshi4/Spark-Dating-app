@@ -13,6 +13,7 @@ import toast from 'react-hot-toast';
 
 const CARD_STACK_SIZE = 5;
 
+
 export default function DiscoverPage() {
   const { user, refreshUser } = useAuth();
   const { on }                = useSocket();
