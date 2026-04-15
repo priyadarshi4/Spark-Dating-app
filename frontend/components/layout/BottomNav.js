@@ -12,6 +12,7 @@ const tabs = [
   { href: '/profile',       icon: User,          label: 'Profile'  },
 ];
 
+
 export default function BottomNav() {
   const router   = useRouter();
   const { unreadCount } = useNotifications();
