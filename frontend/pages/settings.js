@@ -125,5 +125,4 @@ export default function SettingsPage() {
   );
 }
 
-
 SettingsPage.getLayout = (page) => <AppLayout>{page}</AppLayout>;
