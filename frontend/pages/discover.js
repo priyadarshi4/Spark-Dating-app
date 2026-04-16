@@ -17,6 +17,7 @@ export default function DiscoverPage() {
   const { user, refreshUser } = useAuth();
   const { on }                = useSocket();
 
+  
   const [profiles,       setProfiles]       = useState([]);
   const [loading,        setLoading]        = useState(true);
   const [page,           setPage]           = useState(1);
