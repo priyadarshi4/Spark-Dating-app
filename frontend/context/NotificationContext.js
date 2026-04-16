@@ -12,6 +12,7 @@ export const NotificationProvider = ({ children }) => {
   const { isAuthenticated } = useAuth();
   const { on }              = useSocket();
 
+  
   useEffect(() => {
     if (!isAuthenticated) return;
     fetchNotifications();
