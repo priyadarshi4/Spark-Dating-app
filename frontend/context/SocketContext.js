@@ -12,6 +12,7 @@ export const SocketProvider = ({ children }) => {
   const [onlineUsers, setOnlineUsers] = useState(new Set());
   const listenersRef = useRef({});
 
+  
   useEffect(() => {
     if (!isAuthenticated) {
       if (socketRef.current) {
