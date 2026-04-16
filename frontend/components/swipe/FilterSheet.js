@@ -29,6 +29,7 @@ export default function FilterSheet({ filters, onApply, onClose }) {
           <button onClick={onClose} className="w-9 h-9 glass rounded-full flex items-center justify-center text-white/50"><X size={16} /></button>
         </div>
 
+
         <div className="flex flex-col gap-6">
           <div>
             <div className="flex justify-between text-sm mb-3">
