@@ -179,7 +179,6 @@ async function seed() {
   console.log('👋 Done! Start the server and run the frontend to see them in the feed.\n');
 }
 
-
 seed().catch((err) => {
   console.error('❌ Seeder failed:', err.message);
   process.exit(1);
